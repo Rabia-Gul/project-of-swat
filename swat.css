@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9CA986;
+    color:black;
+}
+
+.img{
+    background-image: url(swart\ r.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px whitesmoke;
+    cursor: grab;
+    opacity: 20px;
+    
+    
+}
+.main-title{
+     animation: formain-title; 
+     animation-duration:5s; 
+     animation-fill-mode: backwards; 
+     animation-iteration-count: 4; 
+     position: relative; 
+     animation-timing-function: ease-in; 
+     animation-delay: 4s; 
+     animation-direction: alternate; 
+    
+
+
+    
+}
+@keyframes formain-title{
+    from{
+        color: black;
+    }
+    to{
+        color: blue;
+    }
+}
+
+.navigation {
+    width: 100%;;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#C9DABF;
+    padding: 7px 0;
+    position: absolute;
+    top: 0;
+}
+
+.navigation .logo {
+    font-size: 24px;
+    color: brown;
+}
+
+.navigation nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    margin:  5px;
+}
+
+
+.navigation nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.main-title {
+    font-size: 50px;
+    margin: 100px 0 20px 0;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+.content {
+    padding: 40px;
+}
+
+.heading {
+    color:brown;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 28px;
+    position: relative;
+    bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+ol {
+    margin: 20px;
+    padding-left: 40px;
+}
+   
+.tourist-spot {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #C9DABF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.tourist-spot h4 {
+    color: #74512D;
+    font-size: 24px;
+    
+}
+
+.tourist-spot p {
+    margin: 10px 0;
+    
+}
+
+.tourist-spot img {
+    width: 50%;
+    height: 350px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px grey;
+    cursor: grab;
+    margin-left: 220px;   
+}
+
